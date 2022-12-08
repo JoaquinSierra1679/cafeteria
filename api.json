@@ -1,0 +1,38 @@
+[
+  {
+    "precio": 300,
+    "id": 1,
+    "title": "Café",
+    "imagen": "https://oxxo-com.s3.amazonaws.com/posts/booc8szNilAbEVHDAqsqsfoRbByg7mr4pNEBnOaT.png"
+  },
+  {
+    "precio": 150,
+    "id": 2,
+    "title": "Medialuna",
+    "imagen": "https://cocinerosargentinos.com/content/recipes/500x500/recipes.8952.jpeg"
+  },
+  {
+    "precio": 100,
+    "id": 3,
+    "title": "Agua",
+    "imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/399/084/products/7790315000446_02-removebg-preview1-8f5638c56c84acdebc16192928036556-640-0.png"
+  },
+  {
+    "precio": 600,
+    "id": 4,
+    "title": "Sanguche de Miga",
+    "imagen": "https://delivery.devillamercedes.ar/IMG/tostado-il-panino-id373_1-w500-h500-m1.jpg"
+  },
+  {
+    "precio": 400,
+    "id": 5,
+    "title": "Cerveza",
+    "imagen": "https://bazarrosemblit.com.ar/wp-content/uploads/2019/08/vaso_nonic_chico_y_grande_2-500x500.jpg"
+  },
+  {
+    "precio": 350,
+    "id": 6,
+    "title": "Papas Fritas",
+    "imagen": "https://www.recetas360.com/wp-content/uploads/2019/07/como-hacer-papas-fritas-de-mcdonals-500x500.jpg"
+  }
+]
