@@ -36,7 +36,6 @@ const fetchData = async() => {
     try{   
         const res = await fetch ('api.json');
         const data = await res.json() 
-        // console.log(data)
         pintarCard(data)
 
      } catch(error)
@@ -57,8 +56,6 @@ const pintarCard = data => {
     cards.appendChild(fragment);
 }
 const addCarrito =e => {
-    // console.log(e.target)
-    // console.log(e.target.classList.contains('btn-dark'))
     if(e.target.classList.contains('btn-dark')){
         e.target.parentElement
         setCarrito (e.target.parentElement)
@@ -112,7 +109,6 @@ const pintarFooter=() => {
 
     const nCantidad = Object.values(carrito).reduce((acc,{cantidad})=>acc + cantidad ,0)
     const nPrecio = Object.values(carrito).reduce((acc, {cantidad,precio})=> acc + cantidad * precio,0)
-    // console.log(nCantidad)console.log(nPrecio)
     templateFooter.querySelectorAll('td')[0].textContent = nCantidad
     templateFooter.querySelector ('span').textContent = nPrecio
     
